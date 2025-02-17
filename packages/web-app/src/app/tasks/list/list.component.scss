@@ -1,0 +1,42 @@
+.container {
+  justify-content: space-around;
+
+  .action-button-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--layout-gap-size);
+  }
+
+  .tasks {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 5px;
+    width: min(calc(100vw - var(--layout-padding)), var(--layout-width-max));
+    gap: var(--layout-gap-size);
+
+    mat-card {
+      padding: var(--layout-padding);
+      &.complete {
+        background-color: var(--success-color);
+      }
+      .priority-btn{
+        padding: 5px;
+        border-radius: 10px;
+        color: var(--priority-text-color);
+        float: right;
+      }
+      .high-priority {
+        background-color: var(--high-priority-color);
+      }
+      .medium-priority {
+        background-color: var(--medium-priority-color);
+      }
+      .low-priority {
+        background-color: var(--low-priority-color);
+      }
+      .due-or-overdue{
+        color: var(--error-color);
+      }
+    }
+  }
+}
