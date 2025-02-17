@@ -84,10 +84,23 @@ Your assignment will be evaluated based on the following factors in order of pri
 - **Testing:** Do you have appropriate unit tests to validate the functionality of the features?
 - **Extra Mile:** Did you attempt any of the optional tasks?
 
-### Submission
+### Output (screenshots)
 
-Please submit your assignment by providing a link to your version-controlled repository (e.g., GitHub) containing your codebase and the link to your app.
-Add takehome@scription.ai as a collaborator to your repository.
+**Test Cases**
 
-Feel free to reach out if you have any questions during the assignment period.
-Good luck, and we look forward to reviewing your submission!
+<img src="./packages/web-app/src/assets/test_cases.png" alt="Test Cases" width="200"/>
+
+**Calendar dates within next 7 days**
+
+<img src="./packages/web-app/src/assets/calendar_dates_within_next_7_days.png" alt="Calendar dates within next 7 days" width="200"/>
+
+**Task List**
+
+<img src="./packages/web-app/src/assets/task_list.png" alt="Task List" width="200"/>
+
+**Search Term**
+<img src="./packages/web-app/src/assets/search_term.png" alt="Search Term" width="200"/>
+
+**Filter Tasks**
+
+<img src="./packages/web-app/src/assets/filter_task.png" alt="Filter Tasks" width="200"/>
