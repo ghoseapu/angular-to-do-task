@@ -43,8 +43,6 @@ export class AddComponent {
       ...this.addTaskForm.getRawValue(),
       uuid: faker.string.uuid(),
       isArchived: false,
-      // TODO: allow user to set scheduled date using MatDatePicker
-      // scheduledDate: new Date(),
     };
 
     // save updated task to storage
