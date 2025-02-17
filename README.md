@@ -99,6 +99,7 @@ Your assignment will be evaluated based on the following factors in order of pri
 <img src="./packages/web-app/src/assets/task_list.png" alt="Task List" width="200"/>
 
 **Search Term**
+
 <img src="./packages/web-app/src/assets/search_term.png" alt="Search Term" width="200"/>
 
 **Filter Tasks**
