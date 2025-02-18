@@ -58,7 +58,7 @@ export class TasksService {
       // );
       const options = {
         keys: ['title'],
-        threshold: 0.3,  // Adjust sensitivity. Loosens the match requirement, allowing more fuzzy matches.
+        threshold: 0.6,  // Adjust sensitivity. Loosens the match requirement, allowing more fuzzy matches.
         // distance: 5,  // Adjust how close words need to be. Allows more character variations in the match.
         includeScore: true, // Ignores how far the match is in the string.
         // ignoreLocation: true, // Helps debug by checking match quality (you can log it if needed).
